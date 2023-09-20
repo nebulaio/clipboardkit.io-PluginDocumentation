@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Kit Plugin Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/PDfH5WD/clipboardkit-logo.png" alt="Clipboard Kit Logo">
+        <h1>Clipboard Kit Plugin Documentation</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#section1">1. Introduction</a></li>
+            <li><a href="#section2">2. Installation</a></li>
+            <li><a href="#section3">3. Usage</a></li>
+            <li><a href="#section4">4. Examples</a></li>
+            <li><a href="#section5">5. Troubleshooting</a></li>
+            <li><a href="#section6">6. Support and Contact Information</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Clipboard Kit Plugin Documentation</h1>
+
+        <section id="section1">
+            <h2>1. Introduction</h2>
+
+            <h3>What is Clipboard Kit?</h3>
+            <p>Clipboard Kit is a powerful Unreal Engine plugin designed to simplify clipboard operations within your Unreal Engine projects. With Clipboard Kit, you can effortlessly copy, paste, and check text content in the clipboard, enhancing the user experience and improving data handling in your applications.</p>
+
+            <h3>Features and Benefits</h3>
+            <ul>
+                <li>Copy Text to Clipboard: Easily copy text to the clipboard for sharing or saving within your Unreal Engine project.</li>
+                <li>Retrieve Clipboard Text: Get text from the clipboard, enabling paste functionality within your applications.</li>
+                <li>Check Clipboard Content: Determine if specific text is present in the clipboard, allowing for responsive actions.</li>
+                <li>Clipboard Status: Check if the clipboard is empty, providing valuable input for conditional decisions.</li>
+            </ul>
+        </section>
+
+        <section id="section2">
+            <h2>2. Installation</h2>
+
+            <h3>Requirements</h3>
+            <p>Before installing Clipboard Kit, make sure you meet the following requirements:</p>
+            <ul>
+                <li>Unreal Engine 5.3.0 or later.</li>
+                <li>Windows development platform.</li>
+            </ul>
+
+            <h3>Installation Steps</h3>
+            <p>To install Clipboard Kit, follow these simple steps:</p>
+            <ol>
+                <li>Download the Clipboard Kit plugin from the Unreal Engine Marketplace.</li>
+                <li>Open your Unreal Engine project.</li>
+                <li>Navigate to the "Edit" menu and select "Plugins."</li>
+                <li>Click "Installed" in the left sidebar.</li>
+                <li>Click the "Enable" button next to Clipboard Kit.</li>
+                <li>Restart Unreal Engine to complete the installation.</li>
+            </ol>
+        </section>
+
+        <section id="section3">
+            <h2>3. Usage</h2>
+
+            <p>Clipboard Kit provides easy-to-use functions for managing clipboard text. Here's how you can use its features:</p>
+
+            <h3>Copy Text to Clipboard</h3>
+            <p>Use the <code class="cpp">CopyTextToClipboard</code> function to copy text to the clipboard:</p>
+            <pre><code class="cpp">// Example C++ code
+FString TextToCopy = "Hello, Clipboard!";
+ClipboardKit::CopyTextToClipboard(TextToCopy);
+</code></pre>
+
+            <h3>Retrieve Clipboard Text</h3>
+            <p>Get text from the clipboard using the <code class="cpp">GetClipboardText</code> function:</p>
+            <pre><code class="cpp">// Example C++ code
+FString CopiedText = ClipboardKit::GetClipboardText();
+</code></pre>
+
+            <h3>Check Clipboard Content</h3>
+            <p>Determine if specific text is present in the clipboard with the <code class="cpp">IsClipboardTextAvailable</code> function:</p>
+            <pre><code class="cpp">// Example C++ code
+bool IsAvailable = ClipboardKit::IsClipboardTextAvailable("Important Data");
+</code></pre>
+
+            <h3>Clipboard Status</h3>
+            <p>Check if the clipboard is empty using the <code class="cpp">IsClipboardEmpty</code> function:</p>
+            <pre><code class="cpp">// Example C++ code
+bool IsEmpty = ClipboardKit::IsClipboardEmpty();
+</code></pre>
+        </section>
+
+        <section id="section4">
+            <h2>4. Examples</h2>
+
+            <p>Here are some usage examples to help you get started with Clipboard Kit:</p>
+
+            <h3>Example 1: Copying Text to Clipboard</h3>
+            <pre><code class="cpp">FString TextToCopy = "Hello, Clipboard!";
+ClipboardKit::CopyTextToClipboard(TextToCopy);
+</code></pre>
+
+            <h3>Example 2: Retrieving Clipboard Text</h3>
+            <pre><code class="cpp">FString CopiedText = ClipboardKit::GetClipboardText();
+</code></pre>
+
+            <h3>Example 3: Checking Clipboard Content</h3>
+            <pre><code class="cpp">bool IsAvailable = ClipboardKit::IsClipboardTextAvailable("Important Data");
+</code></pre>
+
+            <h3>Example 4: Using Clipboard Status</h3>
+            <pre><code class="cpp">bool IsEmpty = ClipboardKit::IsClipboardEmpty();
+</code></pre>
+        </section>
+
+        <section id="section5">
+            <h2>5. Troubleshooting</h2>
+
+            <h3>Common Issues</h3>
+            <p>If you encounter any issues while using Clipboard Kit, please refer to the Frequently Asked Questions (FAQ) section in the Appendix. If your issue is not resolved, feel free to contact us for support.</p>
+        </section>
+
+        <section id="section6">
+            <h2>6. Support and Contact Information</h2>
+
+            <p>For questions, support inquiries, or feedback, please contact us at <a href="mailto:nebulasolodev@gmail.com">nebulasolodev@gmail.com</a>.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="section7">
+            <h3>Appendix</h3>
+            
+            <h4>Frequently Asked Questions</h4>
+            <p>[FAQ Section - Coming Soon]</p>
+            
+            <h4>Version History</h4>
+            <ul>
+                <li>Version 1.0 (Initial Release)</li>
+            </ul>
+        </section>
+        
+        <section id="section8">
+            <h3>Support and Contact Information</h3>
+            <p>For questions, support inquiries, or feedback, please contact us at <a href="mailto:nebulasolodev@gmail.com">nebulasolodev@gmail.com</a>.</p>
+        </section>
+    </footer>
+</body>
+</html>
