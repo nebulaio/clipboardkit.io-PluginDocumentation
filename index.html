@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clipboard Kit Plugin Documentation</title>
+    <link rel="icon" href="https://i.ibb.co/KyCYWbg/clipboardkit-logo.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Actor&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="dark-theme">
     <header>
-        <img src="https://i.ibb.co/PDfH5WD/clipboardkit-logo.png" alt="Clipboard Kit Logo">
+        <img src="https://i.ibb.co/KyCYWbg/clipboardkit-logo.png" alt="Clipboard Kit Logo">
         <h1>Clipboard Kit Plugin Documentation</h1>
     </header>
     
@@ -19,10 +20,8 @@
         <ul>
             <li><a href="#section1">1. Introduction</a></li>
             <li><a href="#section2">2. Installation</a></li>
-            <li><a href="#section3">3. Usage</a></li>
-            <li><a href="#section4">4. Examples</a></li>
-            <li><a href="#section5">5. Troubleshooting</a></li>
-            <li><a href="#section6">6. Support and Contact Information</a></li>
+            <li><a href="#section5">3. Troubleshooting</a></li>
+            <li><a href="#section6">4. Support and Contact Information</a></li>
         </ul>
     </nav>
     
@@ -66,69 +65,15 @@
             </ol>
         </section>
 
-        <section id="section3">
-            <h2>3. Usage</h2>
-
-            <p>Clipboard Kit provides easy-to-use functions for managing clipboard text. Here's how you can use its features:</p>
-
-            <h3>Copy Text to Clipboard</h3>
-            <p>Use the <code class="cpp">CopyTextToClipboard</code> function to copy text to the clipboard:</p>
-            <pre><code class="cpp">// Example C++ code
-FString TextToCopy = "Hello, Clipboard!";
-ClipboardKit::CopyTextToClipboard(TextToCopy);
-</code></pre>
-
-            <h3>Retrieve Clipboard Text</h3>
-            <p>Get text from the clipboard using the <code class="cpp">GetClipboardText</code> function:</p>
-            <pre><code class="cpp">// Example C++ code
-FString CopiedText = ClipboardKit::GetClipboardText();
-</code></pre>
-
-            <h3>Check Clipboard Content</h3>
-            <p>Determine if specific text is present in the clipboard with the <code class="cpp">IsClipboardTextAvailable</code> function:</p>
-            <pre><code class="cpp">// Example C++ code
-bool IsAvailable = ClipboardKit::IsClipboardTextAvailable("Important Data");
-</code></pre>
-
-            <h3>Clipboard Status</h3>
-            <p>Check if the clipboard is empty using the <code class="cpp">IsClipboardEmpty</code> function:</p>
-            <pre><code class="cpp">// Example C++ code
-bool IsEmpty = ClipboardKit::IsClipboardEmpty();
-</code></pre>
-        </section>
-
-        <section id="section4">
-            <h2>4. Examples</h2>
-
-            <p>Here are some usage examples to help you get started with Clipboard Kit:</p>
-
-            <h3>Example 1: Copying Text to Clipboard</h3>
-            <pre><code class="cpp">FString TextToCopy = "Hello, Clipboard!";
-ClipboardKit::CopyTextToClipboard(TextToCopy);
-</code></pre>
-
-            <h3>Example 2: Retrieving Clipboard Text</h3>
-            <pre><code class="cpp">FString CopiedText = ClipboardKit::GetClipboardText();
-</code></pre>
-
-            <h3>Example 3: Checking Clipboard Content</h3>
-            <pre><code class="cpp">bool IsAvailable = ClipboardKit::IsClipboardTextAvailable("Important Data");
-</code></pre>
-
-            <h3>Example 4: Using Clipboard Status</h3>
-            <pre><code class="cpp">bool IsEmpty = ClipboardKit::IsClipboardEmpty();
-</code></pre>
-        </section>
-
         <section id="section5">
-            <h2>5. Troubleshooting</h2>
+            <h2>3. Troubleshooting</h2>
 
             <h3>Common Issues</h3>
             <p>If you encounter any issues while using Clipboard Kit, please refer to the Frequently Asked Questions (FAQ) section in the Appendix. If your issue is not resolved, feel free to contact us for support.</p>
         </section>
 
         <section id="section6">
-            <h2>6. Support and Contact Information</h2>
+            <h2>4. Support and Contact Information</h2>
 
             <p>For questions, support inquiries, or feedback, please contact us at <a href="mailto:nebulasolodev@gmail.com">nebulasolodev@gmail.com</a>.</p>
         </section>

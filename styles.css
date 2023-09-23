@@ -3,9 +3,10 @@ body, h1, h2, h3, ul, li, p {
     padding: 0;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #fff;
 }
 
 header {
@@ -13,6 +14,8 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
 }
 
 header img {
@@ -29,16 +32,22 @@ nav ul {
     background-color: #333;
     display: flex;
     justify-content: center;
+    padding: 10px 0;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ddd;
 }
 
 main {
@@ -59,21 +68,32 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    clear: both;
 }
 
 footer a {
     color: #fff;
+    text-decoration: none;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
 
 pre code.cpp {
     display: block;
-    background-color: #282c34; 
-    color: #abb2bf; 
+    background-color: #282c34;
+    color: #abb2bf;
     padding: 10px;
     overflow-x: auto;
     border-radius: 5px;
     font-family: Consolas, monospace;
     font-size: 16px;
     line-height: 1.5;
+    border: 1px solid #000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+pre code.cpp:hover {
+    background-color: #333;
 }
