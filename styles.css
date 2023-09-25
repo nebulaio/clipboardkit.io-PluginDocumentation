@@ -1,10 +1,9 @@
-/* Reset default margin and padding for common elements */
 body, h1, h2, h3, ul, li, p {
     margin: 0;
     padding: 0;
 }
 
-/* Global styles for the body */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #121212;
@@ -12,7 +11,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Header styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -33,7 +32,7 @@ header h1 {
     font-family: 'Actor', sans-serif;
 }
 
-/* Navigation styles */
+
 nav ul {
     list-style-type: none;
     background-color: #333;
@@ -57,24 +56,24 @@ nav ul li a:hover {
     color: #ddd;
 }
 
-/* Main content styles */
+
 main {
     padding: 20px;
 }
 
-/* Section heading styles */
+
 section h2 {
     margin-top: 20px;
     transition: color 0.3s ease-in-out;
 }
 
-/* Unordered list styles */
+
 section ul {
     list-style-type: disc;
     margin-left: 20px;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -94,43 +93,22 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Code block styles with hover effect */
+
 pre code.cpp {
     background-color: #333;
     transition: background-color 0.3s ease;
 }
 
-/* Hover effects */
+
 header:hover {
-    background-color: #444; /* Darken the header background on hover */
-    color: #eee; /* Lighten the header text color on hover */
+    background-color: #444;
+    color: #eee;
 }
 
 header img:hover {
-    transform: scale(1.05); /* Slightly scale up the logo on hover */
+    transform: scale(1.05);
 }
 
 section h2:hover {
-    color: #007BFF; /* Change section heading color on hover */
+    color: #007BFF;
 }
-
-/* Define the animation keyframes */
-@keyframes gradientLoop {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-/* Apply the animation to the body */
-body {
-    animation: gradientLoop 10s linear infinite; /* Adjust the duration as needed */
-    background: linear-gradient(45deg, #007BFF, #00BFFF, #007BFF, #00BFFF);
-    background-size: 400% 400%;
-}
-
