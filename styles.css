@@ -114,4 +114,23 @@ section h2:hover {
     color: #007BFF; /* Change section heading color on hover */
 }
 
-/* Add other hover effects as needed */
+/* Define the animation keyframes */
+@keyframes gradientLoop {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Apply the animation to the body */
+body {
+    animation: gradientLoop 10s linear infinite; /* Adjust the duration as needed */
+    background: linear-gradient(45deg, #007BFF, #00BFFF, #007BFF, #00BFFF);
+    background-size: 400% 400%;
+}
+
