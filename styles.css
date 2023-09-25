@@ -1,14 +1,18 @@
+/* Reset default margin and padding for common elements */
 body, h1, h2, h3, ul, li, p {
     margin: 0;
     padding: 0;
 }
 
+/* Global styles for the body */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #121212;
     color: #fff;
+    transition: background-color 0.3s ease;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: #fff;
@@ -16,17 +20,20 @@ header {
     padding: 20px 0;
     position: sticky;
     top: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header img {
     width: 100px;
     height: 100px;
+    transition: transform 0.3s ease;
 }
 
 header h1 {
     font-family: 'Actor', sans-serif;
 }
 
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     background-color: #333;
@@ -50,50 +57,61 @@ nav ul li a:hover {
     color: #ddd;
 }
 
+/* Main content styles */
 main {
     padding: 20px;
 }
 
+/* Section heading styles */
 section h2 {
     margin-top: 20px;
+    transition: color 0.3s ease-in-out;
 }
 
+/* Unordered list styles */
 section ul {
     list-style-type: disc;
     margin-left: 20px;
 }
 
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
     clear: both;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 footer a {
     color: #fff;
     text-decoration: none;
+    transition: text-decoration 0.3s ease;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
+/* Code block styles with hover effect */
 pre code.cpp {
-    display: block;
-    background-color: #282c34;
-    color: #abb2bf;
-    padding: 10px;
-    overflow-x: auto;
-    border-radius: 5px;
-    font-family: Consolas, monospace;
-    font-size: 16px;
-    line-height: 1.5;
-    border: 1px solid #000;
-    transition: background-color 0.3s ease-in-out;
+    background-color: #333;
+    transition: background-color 0.3s ease;
 }
 
-pre code.cpp:hover {
-    background-color: #333;
+/* Hover effects */
+header:hover {
+    background-color: #444; /* Darken the header background on hover */
+    color: #eee; /* Lighten the header text color on hover */
 }
+
+header img:hover {
+    transform: scale(1.05); /* Slightly scale up the logo on hover */
+}
+
+section h2:hover {
+    color: #007BFF; /* Change section heading color on hover */
+}
+
+/* Add other hover effects as needed */
