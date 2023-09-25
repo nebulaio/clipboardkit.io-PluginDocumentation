@@ -1,4 +1,4 @@
-## Clipboard Kit Plugin (closed)
+## Clipboard Kit Plugin (closed) <font color="red">This text is red</font>
 
 ![Clipboard Kit Logo](https://i.ibb.co/x1X8sF5/PAGE-1.jpg)
 
