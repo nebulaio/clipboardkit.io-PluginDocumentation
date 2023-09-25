@@ -1,4 +1,4 @@
-# Clipboard Kit Plugin
+## Clipboard Kit Plugin (closed)
 
 ![Clipboard Kit Logo](https://i.ibb.co/x1X8sF5/PAGE-1.jpg)
 
