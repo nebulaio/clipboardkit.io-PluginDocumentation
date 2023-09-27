@@ -15,7 +15,7 @@ A plugin that provides easy-to-use functions for copying, pasting, checking text
 
 To install the Clipboard Kit Plugin, follow these simple steps:
 
-1. Download the Clipboard Kit plugin from the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/clipboard-kit-plugin).
+1. Download the Clipboard Kit plugin from the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/clipboard-kit).
 2. Open your Unreal Engine project.
 3. Navigate to the "Edit" menu and select "Plugins."
 4. Click "Installed" in the left sidebar.
