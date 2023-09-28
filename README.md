@@ -1,6 +1,6 @@
 ## Clipboard Kit Plugin
 
-![Clipboard Kit Logo](https://i.ibb.co/x1X8sF5/PAGE-1.jpg)
+![Clipboard Kit Logo](https://i.ibb.co/vJ6v3Gw/Clipboard-Kit-Logo.png)
 
 A plugin that provides easy-to-use functions for copying, pasting, checking text content, and determining if the clipboard is empty within Unreal Engine projects.
 
