@@ -40,12 +40,8 @@ For detailed usage instructions and code examples of these functions, please ref
 
 ## Demo Project
 
-Explore Clipboard Kit with our demo project. Download it [here](https://www.mediafire.com/file/r20tfh6lwob2yzq/ClipboardKitExample.zip).
+Explore Clipboard Kit with demo project. Download it [here](https://www.mediafire.com/file/r20tfh6lwob2yzq/ClipboardKitExample.zip).
 
 ## Support
 
 For questions, support inquiries, or feedback, please contact us at [nebulasolodev@gmail.com](mailto:nebulasolodev@gmail.com).
-
----
-
-For more information and detailed documentation, visit the [Clipboard Kit Plugin Documentation](https://nebulasolodev.github.io/clipboardkit.io-PluginDocumentation/).
